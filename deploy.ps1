@@ -1,4 +1,4 @@
-. .\azure-hugo.ps1
+. $PSScriptRoot/azure-hugo.ps1
 
 Install-Hugo
 Invoke-SiteBuild
