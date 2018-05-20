@@ -73,7 +73,7 @@ When that happens, your first step should be to update the azure-hugo submodule 
 
 -----
 
-_Current Hugo Version: **0.40.2**_
+_Current Hugo Version: **0.40.3**_
 
 -----
 
