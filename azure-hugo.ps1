@@ -1,4 +1,4 @@
-$hugoVersion = "0.40.3"  # May 9, 2018
+$hugoVersion = "0.41"  # May 25, 2018
 $hugoDownloadPath = "https://github.com/gohugoio/hugo/releases/download/v{0}/hugo_{0}_Windows-64bit.zip" -f $hugoVersion
 
 # Returns the path where Hugo is installed.
