@@ -51,7 +51,8 @@ function Invoke-SiteBuild($version=$hugoVersion) {
 	# Build the site
 	Write-Output "Building site..."
 	Push-Location d:\home\site\repository\
-	& $(Get-HugoExe($version)) --destination D:\home\site\wwwroot --verbose
+	& $(Get-HugoExe($version)) --destination D:\home\site\temp --verbose
+	robocopy.exe D:\home\site\temp D:\home\site\wwwroot /mir
 	Pop-Location
 	Write-Output "Done!"
 }
