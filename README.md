@@ -13,7 +13,7 @@ Once set up, you can:
 * Build your site incrementally on a schedule
 * Upgrade the version of Hugo used to build your site just by pushing a Git commit
 
-## Pre-reqs and assumptions
+## Pre-requisites and assumptions
 
 The instructions here assume that you are reasonably familiar with Azure App Service and deploying sites to it. They assume you know how to configure your site to be deployed from a Git repository on GitHub, and that you have that set up for your Hugo site. These instructions will guide you in configuring your repo to build automatically when deployed to Azure.
 
