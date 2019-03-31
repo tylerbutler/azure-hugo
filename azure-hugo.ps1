@@ -1,5 +1,5 @@
-$hugoVersion = "0.53"  # Dec 24, 2018
-$hugoDownloadPath = "https://github.com/gohugoio/hugo/releases/download/v{0}/hugo_{0}_Windows-64bit.zip" -f $hugoVersion
+$hugoVersion = "0.54"  # Feb 1, 2019
+$hugoDownloadPath = "https://github.com/gohugoio/hugo/releases/download/v{0}/hugo_extended_{0}_Windows-64bit.zip" -f $hugoVersion
 
 # Returns the path where Hugo is installed.
 function Get-HugoPath($version=$hugoVersion) {
